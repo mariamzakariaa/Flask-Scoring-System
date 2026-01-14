@@ -1,0 +1,10 @@
+{% extends "base.html"%}
+{%block title%}View DB{%endblock%}
+{%block content %}
+    {%for item in values%}
+        <p>name: {{item.name}}, email: {{item.email}}</p>
+
+    {%endfor%}
+
+
+{%endblock%}

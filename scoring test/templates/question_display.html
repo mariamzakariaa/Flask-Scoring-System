@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center mt-5">
+    <h2>Round {{ round_num }} - {{ q_type|upper }}</h2>
+    <h3>Team: {{ current_team.name }}</h3>
+    <h4>Question {{ q_index }} of {{ total }}</h4>
+
+    <form method="POST" action="{{ url_for('questions') }}">
+        <p>{{ question.question }}</p>
+
+        {% if q_type == "mcq" %}
+            {% for choice in question.choices %}
+                <div>
+                    <input type="checkbox" name="answer" value="{{ choice }}"> {{ choice }}
+                </div>
+            {% endfor %}
+        {% elif q_type == "true_false" %}
+            <div><input type="radio" name="answer" value="True"> True</div>
+            <div><input type="radio" name="answer" value="False"> False</div>
+        {% elif q_type == "bank" %}
+            <!-- customize bank questions layout -->
+        {% endif %}
+
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+</div>
+{% endblock %}

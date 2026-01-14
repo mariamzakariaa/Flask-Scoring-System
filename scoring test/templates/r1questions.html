@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center mt-5">
+    <h2>Round {{ round_num }}: {{ teams[0].name }} VS {{ teams[1].name }}</h2>
+
+    <form action="{{ url_for('choose_questions') }}" method="POST">
+        {% for t in teams %}
+            <input type="hidden" name="team_ids" value="{{ t.id }}">
+        {% endfor %}
+        <input type="hidden" name="round" value="{{ round_num }}">
+
+        <div class="d-flex flex-column align-items-center mt-4">
+            <button type="submit" name="question_type" value="mcq" class="btn btn-primary btn-lg mb-3 w-50">
+                MCQ
+            </button>
+            <button type="submit" name="question_type" value="true_false" class="btn btn-success btn-lg mb-3 w-50">
+                True / False
+            </button>
+            <button type="submit" name="question_type" value="bank" class="btn btn-warning btn-lg w-50">
+                Bank
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}

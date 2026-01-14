@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>LeaderBoard</h2>
+
+<div class="d-flex justify-content-end mb-3">
+    <!-- Teams form for Start -->
+    <form id="teamsForm" action="{{ url_for('rounds') }}" method="POST" class="d-flex align-items-center me-2">
+        <button id="startBtn" type="submit" class="btn btn-primary btn-lg me-2" disabled>
+            Start
+        </button>
+    </form>
+
+    <!-- Start Over form (separate, not nested) -->
+    <form action="{{ url_for('reset_competition') }}" method="POST">
+        <button type="submit" class="btn btn-danger btn-lg">
+            Start Over
+        </button>
+    </form>
+</div>
+
+<!-- Leaderboard table with checkboxes -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Participant</th>
+            <th>Total Score</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for p in leaderboard %}
+        <tr>
+            <td>
+                <input type="checkbox" form="teamsForm" name="teams" class="team-checkbox" value="{{ p.id }}">
+            </td>
+            <td>{{ p.name }}</td>
+            <td>{{ p.score }}</td>
+            <td class="text-end">
+                <div class="dropdown">
+                    <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+                        ⋮
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <form action="{{ url_for('delete_participant', participant_id=p.id) }}" method="POST">
+                            <button type="submit" class="dropdown-item text-danger"
+                                onclick="return confirm('Are you sure you want to delete {{ p.name }}?');">
+                                Delete
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script>
+const startBtn = document.getElementById("startBtn");
+const checkboxes = document.querySelectorAll(".team-checkbox");
+
+// Enable Start only when exactly 2 checkboxes are checked
+checkboxes.forEach(cb => {
+    cb.addEventListener("change", function() {
+        const checkedCount = document.querySelectorAll(".team-checkbox:checked").length;
+        startBtn.disabled = checkedCount !== 2;
+    });
+});
+</script>
+
+{% endblock %}

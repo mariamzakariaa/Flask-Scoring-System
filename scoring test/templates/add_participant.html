@@ -1,0 +1,22 @@
+{%extends "base.html"%}
+{%block content%}
+    {% with messages = get_flashed_messages() %}
+        {%if messages%}
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {%endfor%}
+        {%endif%}
+
+    {% endwith %}
+
+
+
+<h2>Add Participants</h2>
+<form action="{{ url_for('add_participant') }}" method="POST">
+    <input type="text" name="name">
+    <button type="submit">Add Team</button>
+</form>
+
+
+
+{%endblock%}

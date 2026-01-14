@@ -1,0 +1,20 @@
+{%extends "base.html"%}
+{%block content%}
+<h2>Add Score</h2>
+<form method="POST">
+    <div class=mb-3>
+        <label class="form-label">Participant</label>
+        <select name="participant_id" class="form-select">
+            {%for p in participants %}
+            <option value="{{ p.id }}">{{ p.name }}</option>
+            {%endfor%}
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Score</label>
+        <input name="value" type="number" min="1" max="10" class="form-control" required>
+    </div>
+    <button class="btn btn-warning">Submit Score</button>
+
+</form>
+{%endblock%}

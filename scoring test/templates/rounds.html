@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center mt-5">
+    <h2>{{ teams[0].name }} VS {{ teams[1].name }}</h2>
+    <p>Select a round:</p>
+
+    <div class="d-flex flex-column align-items-center mt-4">
+        {% for r in [1,2,3] %}
+        <form action="{{ url_for('r1questions') }}" method="POST" class="mb-3 w-50">
+            {% for t in teams %}
+            <input type="hidden" name="team_ids" value="{{ t.id }}">
+            {% endfor %}
+            <input type="hidden" name="round" value="{{ r }}">
+            <button type="submit" class="btn {% if r==1 %}btn-primary{% else %}btn-secondary{% endif %} btn-lg w-100">
+                Round {{ r }} {% if r!=1 %}(Not ready){% endif %}
+            </button>
+        </form>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

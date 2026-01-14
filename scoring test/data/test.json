@@ -1,0 +1,370 @@
+{
+    "round1":  {
+        "mcq":{
+            "team1":[
+                {
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+            },
+        {
+            "question": "Which part of the microcontroller executes instructions?",
+            "choices": ["RAM", "Flash", "CPU", "GPIO"],
+            "answer": "CPU"
+        },{
+            "question": "Which is NOT an example of output device?",
+            "choices": ["LED", "Motor", "Buzzer", "Sensor"],
+            "answer": "C++"
+        }]
+        {
+            "question": "The binary equivalent of decimal 5 is:",
+            "choices": ["1000", "0010", "0101", "1010"],
+            "answer": "0101"
+        },{
+            "question": "Flash memory is:",
+            "choices": ["Volatile", "Resistor", "Transistor", "Inductor"],
+            "answer": "Resistor"
+        },{
+            "question": "Which two lines are used for I2C communication?",
+            "choices": ["RX TX", "SDA SCL", "CANH CANL", "RTS CTS"],
+            "answer": "SDA SCL"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        }
+    }
+    ,
+        "True or False":[
+            {
+            "question": "The nozzle increases the fluid velocity.",
+            "answer": true
+        },
+        {
+            "question": "The specific heat capacity (Cp) of a substance is the energy required to raise the temperature of a unit mass by one degree at constant volume.",
+            "answer": false
+        },
+        {
+            "question": "A harder material is always more brittle than a softer one.",
+            "answer": false
+        },{
+            "question": "The further you hold a wrench the easier it is to loosen a tight bolt.",
+            "answer": true
+        },{
+            "question": "Friction always opposes motion.",
+            "answer": false
+        },{
+            "question": "Critically damped and overdamped systems are both non-oscillatory",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        },{
+            "question": "Which language is used to program the arduino?",
+            "answer": true
+        }
+        ],
+        "Bank":[{
+            "question": "The material's ability to be drawn into a wire.",
+            "choices": ["Ductility", "Brittleness", "Toughness", "Hardness"],
+            "answer": "Ductility"
+        },
+        {
+            "question": "The material's resistance to scratching or indentation.",
+            "choices": ["Strength", "Hardness", "Toughness", "Torsion"],
+            "answer": "Hardness"
+        },{
+            "question": "A measure of a fluid's resistance to flow.",
+            "choices": ["Density", "Viscosity", "Bouyancy", "Surface Tension"],
+            "answer": "Viscosity"
+        },{
+            "question": "The material's ability to absorb energy and plastically deform without fracturing.",
+            "choices": ["Strength", "Hardness", "Toughness", "Torsion"],
+            "answer": "Toughness"
+        },{
+            "question": "A gear can be manufactured on ____ machine.",
+            "choices": ["Turning", "Drilling", "Milling", "Forging"],
+            "answer": "Milling"
+        },{
+            "question": "The thread on a bolt is produced on ____ machine.",
+            "choices": ["Turning", "Drilling", "Milling", "Forging"],
+            "answer": ["Turning", "Lathe"]
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        },{
+            "question": "Which language is used to program the arduino?",
+            "choices": ["Python", "C++", "Java", "HTML"],
+            "answer": "C++"
+        }
+        ]
+    }
+}
